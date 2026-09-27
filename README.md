@@ -5,7 +5,7 @@
 <h1 align="center">Hi, I'm Taufiq</h1>
 
 <p align="center">
-  Informatics student focused on machine learning, computer vision, and YOLO-based vehicle detection.
+  Lulusan Informatika yang berfokus pada machine learning, computer vision, dan deteksi kendaraan berbasis YOLO.
 </p>
 
 <p align="center">
@@ -21,10 +21,10 @@
 
 ### About Me
 
-- Informatics student with an interest in AI and software development.
-- Currently building a YOLO11L vehicle detection and tracking system.
-- Interested in computer vision, desktop applications, databases, and automation.
-- Learning how to make practical machine learning projects easier to use.
+- Lulusan Informatika dengan minat pada AI dan software development.
+- Mengembangkan sistem deteksi dan tracking kendaraan berbasis YOLO11L.
+- Tertarik pada computer vision, aplikasi desktop, database, dan automation.
+- Berfokus membuat project machine learning yang praktis dan mudah digunakan.
 
 ### Tech Stack
 
