@@ -48,13 +48,6 @@ Desktop application for vehicle detection, tracking, counting, and traffic analy
   </a>
 </p>
 
-### GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=taufiqulisrat&show_icons=true&theme=github_dark&hide_border=true" height="160" alt="GitHub Stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taufiqulisrat&layout=compact&theme=github_dark&hide_border=true" height="160" alt="Top Languages">
-</p>
-
 ### Contribution Snake
 
 <p align="center">
