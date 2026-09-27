@@ -1,0 +1,73 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Taufiq GitHub profile banner</title>
+  <desc id="desc">A dark computer vision themed banner with road lanes, detection boxes, and a central AI traffic chip.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071018"/>
+      <stop offset="0.52" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="420" y1="84" x2="780" y2="276" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.09 0 0 0 0 0.83 0 0 0 0 0.93 0 0 0 0.75 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" stroke="#1F2937" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)" opacity="0.42"/>
+
+  <g opacity="0.55" stroke="#334155" stroke-width="2">
+    <path d="M0 275 C180 250 260 260 410 213 C535 175 650 170 810 195 C965 219 1035 176 1200 150"/>
+    <path d="M0 312 C200 285 320 290 490 242 C655 197 770 212 915 235 C1040 254 1105 225 1200 203"/>
+    <path d="M0 92 C145 116 262 96 410 133 C560 171 686 158 828 121 C970 84 1078 82 1200 103"/>
+    <path d="M0 132 C142 155 278 141 425 170 C566 198 707 188 845 153 C984 118 1086 118 1200 138"/>
+  </g>
+
+  <g opacity="0.75">
+    <rect x="94" y="72" width="108" height="54" rx="7" stroke="#38BDF8" stroke-width="3"/>
+    <rect x="228" y="195" width="134" height="58" rx="7" stroke="#A3E635" stroke-width="3"/>
+    <rect x="912" y="86" width="142" height="64" rx="7" stroke="#F97316" stroke-width="3"/>
+    <rect x="818" y="225" width="94" height="50" rx="7" stroke="#C084FC" stroke-width="3"/>
+    <text x="104" y="105" fill="#94A3B8" font-family="Consolas, monospace" font-size="18">car 0.91</text>
+    <text x="242" y="230" fill="#94A3B8" font-family="Consolas, monospace" font-size="18">truck 0.88</text>
+    <text x="930" y="124" fill="#94A3B8" font-family="Consolas, monospace" font-size="18">bus 0.93</text>
+    <text x="831" y="258" fill="#94A3B8" font-family="Consolas, monospace" font-size="18">bike</text>
+  </g>
+
+  <g opacity="0.7" stroke="#475569" stroke-width="3">
+    <path d="M600 48 V94"/>
+    <path d="M600 266 V312"/>
+    <path d="M468 180 H382"/>
+    <path d="M818 180 H732"/>
+    <path d="M508 106 L430 58"/>
+    <path d="M692 254 L770 302"/>
+    <path d="M508 254 L430 302"/>
+    <path d="M692 106 L770 58"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <rect x="471" y="78" width="258" height="204" rx="28" fill="#111827" stroke="url(#chip)" stroke-width="5"/>
+    <rect x="508" y="113" width="184" height="134" rx="18" fill="#020617" stroke="#334155" stroke-width="2"/>
+    <text x="600" y="164" text-anchor="middle" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">YOLO11L</text>
+    <text x="600" y="204" text-anchor="middle" fill="#67E8F9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="600">Vehicle Detection</text>
+    <text x="600" y="230" text-anchor="middle" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Tracking • Counting • Traffic Analysis</text>
+  </g>
+
+  <g>
+    <circle cx="154" cy="294" r="5" fill="#22D3EE"/>
+    <circle cx="266" cy="112" r="5" fill="#A3E635"/>
+    <circle cx="366" cy="251" r="5" fill="#F97316"/>
+    <circle cx="826" cy="98" r="5" fill="#C084FC"/>
+    <circle cx="1038" cy="232" r="5" fill="#22C55E"/>
+    <circle cx="1116" cy="138" r="5" fill="#FACC15"/>
+  </g>
+</svg>
